@@ -1,0 +1,144 @@
+* {
+    font-family: 'Outfit';
+    font-weight: 400;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 100px;
+}
+
+main, img {
+    width: 650px; 
+}
+
+img {
+    border-radius: 20px;
+    opacity: 90%;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    opacity: 90%;
+}
+
+h1, h2 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Outfit';
+    font-weight: 700;
+}
+
+p, li, th, td {
+    font-size:  16px;
+}
+
+#s1 p {
+    color: hsl(30, 10%, 34%);
+
+}
+
+#s1-sub {
+    padding: 10px 10px 10px 25px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+#s1-sub h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+#s1-sub ul {
+    padding-left: 25px;
+}
+
+#s1-sub li {
+    line-height: 30px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 10px;
+}
+
+#s1-sub li::marker {
+    color: hsl(332, 51%, 32%);
+
+}
+
+#s1-sub span {
+    font-weight: 700;
+}
+
+#s2 h2, #s3 h2, #s4 h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+#s2 ul {
+    padding-left: 25px;
+}
+
+#s2 li {
+    line-height: 30px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 10px;
+}
+
+hr {
+    width: 650px;
+    opacity: 30%;
+}
+
+#s3 ol {
+    padding-left : 25px;
+}
+
+#s3 li::marker {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+#s3 li span {
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+#s3 li {
+    line-height:  30px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 10px;
+    padding-bottom:5px;
+}
+
+#s4 {
+    color: hsl(30, 10%, 34%);
+}
+
+#table div {
+    display: flex;
+    flex-direction: row;
+}
+
+#table span p {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    padding: 0px;
+}
+
+#table-content > div {
+    width: 50%;
+}
+
+#table-content p {
+    padding-left: 30px;
+    margin: 10px;
+}
